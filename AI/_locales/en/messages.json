@@ -1,0 +1,14 @@
+{
+    "appName": {
+        "message": "AI Site Launcher",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "appDesc": {
+        "message": "Quick launcher for AI websites.",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "openApp": {
+        "message": "Open AI sites",
+        "description": "Open AI sites."
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "AI Site Launcher",
+    "version": "1.0",
+    "description": "Quick launcher for AI websites.",
+    "default_locale": "en",
+    "permissions": ["tabs"],
+    "host_permissions": [
+        "https://chatgpt.com/*",
+        "https://claude.ai/*",
+        "https://poe.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "19": "icon.png",
+            "38": "icon.png"
+        },
+        "default_title": "Open AI sites",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}

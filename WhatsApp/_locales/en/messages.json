@@ -1,0 +1,14 @@
+{
+    "appName": {
+        "message": "WhatsApp Web Launcher",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "appDesc": {
+        "message": "Launch WhatsApp Web using pinned extension icon.",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "openApp": {
+        "message": "Open WhatsApp Web",
+        "description": "Open WhatsApp Web."
+    }
+}

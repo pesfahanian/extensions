@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "WhatsApp Web Launcher",
+    "version": "1.0",
+    "description": "Launch WhatsApp Web using pinned extension icon.",
+    "default_locale": "en",
+    "permissions": ["tabs"],
+    "host_permissions": ["https://web.whatsapp.com/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "19": "icon.png",
+            "38": "icon.png"
+        },
+        "default_title": "Open WhatsApp Web"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Telegram Web Launcher",
+    "version": "1.0",
+    "description": "Launch Telegram Web using pinned extension icon.",
+    "default_locale": "en",
+    "permissions": ["tabs"],
+    "host_permissions": ["https://web.telegram.org/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "19": "icon.png",
+            "38": "icon.png"
+        },
+        "default_title": "Open Telegram Web"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}

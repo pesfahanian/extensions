@@ -1,0 +1,14 @@
+{
+    "appName": {
+        "message": "Gmail Launcher",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "appDesc": {
+        "message": "Launch Gmail using pinned extension icon.",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "openApp": {
+        "message": "Open Gmail",
+        "description": "Open Gmail."
+    }
+}

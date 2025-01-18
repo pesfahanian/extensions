@@ -1,0 +1,14 @@
+{
+    "appName": {
+        "message": "YouTube Launcher",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "appDesc": {
+        "message": "Launch YouTube using pinned extension icon.",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "openApp": {
+        "message": "Open YouTube",
+        "description": "Open YouTube."
+    }
+}

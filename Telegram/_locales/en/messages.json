@@ -1,0 +1,14 @@
+{
+    "appName": {
+        "message": "Telegram Web Launcher",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "appDesc": {
+        "message": "Launch Telegram Web using pinned extension icon.",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "openApp": {
+        "message": "Open Telegram Web",
+        "description": "Open Telegram Web."
+    }
+}

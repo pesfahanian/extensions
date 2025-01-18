@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Gmail Launcher",
+    "version": "1.0",
+    "description": "Launch Gmail using pinned extension icon.",
+    "default_locale": "en",
+    "permissions": ["tabs"],
+    "host_permissions": ["https://mail.google.com/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "19": "icon.png",
+            "38": "icon.png"
+        },
+        "default_title": "Open Gmail"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}

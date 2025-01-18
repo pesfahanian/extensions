@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                width: 120px;
+                padding: 6px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 0;
+            }
+            .site-icon {
+                cursor: pointer;
+                padding: 4px;
+                border-radius: 50%;
+                transition: background-color 0.2s;
+            }
+            .site-icon:hover {
+                background-color: #f0f0f0;
+            }
+            img {
+                width: 24px;
+                height: 24px;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="site-icon" data-url="https://chatgpt.com/">
+            <img src="chatgpt.png" alt="ChatGPT" />
+        </div>
+        <div class="site-icon" data-url="https://claude.ai/">
+            <img src="claude.png" alt="Claude" />
+        </div>
+        <div class="site-icon" data-url="https://poe.com/">
+            <img src="poe.png" alt="Poe" />
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
