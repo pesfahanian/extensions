@@ -8,6 +8,7 @@
     "host_permissions": [
         "https://chatgpt.com/*",
         "https://claude.ai/*",
+        "https://chat.deepseek.com/*",
         "https://poe.com/*"
     ],
     "background": {
