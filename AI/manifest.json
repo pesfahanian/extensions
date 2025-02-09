@@ -9,6 +9,7 @@
         "https://chatgpt.com/*",
         "https://claude.ai/*",
         "https://chat.deepseek.com/*",
+        "https://chat.mistral.ai/*",
         "https://poe.com/*"
     ],
     "background": {
