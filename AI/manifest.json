@@ -10,8 +10,7 @@
         "https://claude.ai/*",
         "https://chat.deepseek.com/*",
         "https://chat.mistral.ai/*",
-        "https://grok.com/*",
-        "https://poe.com/*"
+        "https://aistudio.google.com/*"
     ],
     "background": {
         "service_worker": "background.js"
