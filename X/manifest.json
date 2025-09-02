@@ -1,15 +1,11 @@
 {
     "manifest_version": 3,
-    "name": "AI Site Launcher",
+    "name": "X Launcher",
     "version": "1.0",
-    "description": "Quick launcher for AI websites.",
+    "description": "Launch X using pinned extension icon.",
     "default_locale": "en",
     "permissions": ["tabs"],
-    "host_permissions": [
-        "https://chatgpt.com/*",
-        "https://claude.ai/*",
-        "https://aistudio.google.com/*"
-    ],
+    "host_permissions": ["https://www.x.com/*"],
     "background": {
         "service_worker": "background.js"
     },
@@ -18,8 +14,7 @@
             "19": "icon.png",
             "38": "icon.png"
         },
-        "default_title": "Open AI sites",
-        "default_popup": "popup.html"
+        "default_title": "Open X"
     },
     "icons": {
         "16": "icon.png",

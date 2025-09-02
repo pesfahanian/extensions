@@ -1,0 +1,14 @@
+{
+    "appName": {
+        "message": "X Launcher",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "appDesc": {
+        "message": "Launch X using pinned extension icon.",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "openApp": {
+        "message": "Open X",
+        "description": "Open X."
+    }
+}
